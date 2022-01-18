@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
-
 //此处是主入口
 func main() {
-	fmt.Println("Hello go_web")
 
+	//加载配置文件
+
+	//加载logger日志
+
+	//连接数据库
+
+	//启动路由
 }
