@@ -2,7 +2,10 @@ module go_web
 
 go 1.17
 
-require github.com/gin-gonic/gin v1.7.7
+require (
+	github.com/gin-gonic/gin v1.7.7
+	gopkg.in/ini.v1 v1.66.2
+)
 
 require (
 	github.com/gin-contrib/sse v0.1.0 // indirect

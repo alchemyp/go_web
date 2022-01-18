@@ -1,5 +1,7 @@
 package config
 
+import "gopkg.in/ini.v1"
+
 var Conf = new(AppConfig)
 
 //App配置映射
